@@ -8,6 +8,10 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+.nav-item {
+font-size: 20px;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -26,6 +30,10 @@ body {
 .carousel-item {
   height: 32rem;
 }
+
+
+
+
 
 
 /* MARKETING CONTENT
