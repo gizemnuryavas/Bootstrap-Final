@@ -10,6 +10,10 @@
   padding-bottom: 2rem;
 }
 
+.container {
+  max-width: 960px;
+}
+
 
 
 body {
