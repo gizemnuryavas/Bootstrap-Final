@@ -13,7 +13,13 @@ background-color: rgb(255, 255, 255);
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.nav-link:hover{
+  color: orange !important;
+}
 
+.btn:hover{
+color: orange !important;
+}
 
 .nav-item {
 font-size: 20px;
