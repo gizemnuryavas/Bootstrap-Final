@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body{
-background-color: rgb(234, 213, 222);
+background-color: rgb(236, 169, 71);
 color: white;
 
 }
@@ -21,7 +21,7 @@ font-size: 20px;
 }
 
 .text-pink {
-  color: rgb(234, 213, 222);
+  color: rgb(236, 169, 71);
   }
   
 .modal-sheet .modal-dialog {
