@@ -3,17 +3,27 @@
 /* Padding below the footer and lighter body text */
 
 body{
-background-color: rgb(241, 227, 235);
+background-color: rgb(234, 213, 222);
 color: white;
 
 }
 
 header{
-background-color: rgb(232, 201, 151);
+background-color: rgb(255, 255, 255);
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
+
+.nav-item {
+font-size: 20px;
+
+}
+
+.text-pink {
+  color: rgb(234, 213, 222);
+  }
+  
 .modal-sheet .modal-dialog {
   width: 380px;
   transition: bottom .75s ease-in-out;
@@ -27,9 +37,6 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
-.nav-item {
-font-size: 20px;
-}
 
 
 /* CUSTOMIZE THE CAROUSEL
