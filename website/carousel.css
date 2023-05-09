@@ -5,6 +5,7 @@
 body {
   background-color: rgb(236, 169, 71);
   color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -122,6 +123,8 @@ a:active {
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
 }
 
 hr {
@@ -148,9 +151,7 @@ hr {
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
+  
 }
 
 @media (min-width: 62em) {
