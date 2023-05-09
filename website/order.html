@@ -34,15 +34,6 @@
       }
     }
 
-    .b-example-divider {
-      width: 100%;
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
-
     .b-example-vr {
       flex-shrink: 0;
       width: 1.5rem;
@@ -72,23 +63,6 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    .btn-bd-primary {
-      --bd-violet-bg: #712cf9;
-      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-      --bs-btn-font-weight: 600;
-      --bs-btn-color: var(--bs-white);
-      --bs-btn-bg: var(--bd-violet-bg);
-      --bs-btn-border-color: var(--bd-violet-bg);
-      --bs-btn-hover-color: var(--bs-white);
-      --bs-btn-hover-bg: #6528e0;
-      --bs-btn-hover-border-color: #6528e0;
-      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-      --bs-btn-active-color: var(--bs-btn-hover-color);
-      --bs-btn-active-bg: #5a23c8;
-      --bs-btn-active-border-color: #5a23c8;
-    }
-
     .bd-mode-toggle {
       z-index: 1500;
     }
@@ -100,12 +74,11 @@
 </head>
 
 <body>
-
-  <header data-bs-theme="light">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-bodytertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="homepage.html">
-          <img src="GWDS.svg" alt="Logo" width="60" height="40" class="d-inline-block">
+        <a class="navbar-brand ms-4" href="homepage.html">
+          <img src="logo.svg" alt="Logo" width="120" height="100" class="d-inline-block">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -115,26 +88,36 @@
           <ul class="nav justify-content-end" class="navbar-nav me-auto mb-2 mb-md-0">
 
             <li class="nav-item">
-              <a class="nav-link" href="order.html">Order</a>
+              <a class="nav-link text-pink" href="order.html">ORDER</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="menu.html">Menu</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="schedule.html">Schedule</a>
+              <a class="nav-link text-pink" href="menu.html">MENU</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link text-pink" href="ourstory.html">OUR STORY</a>
             </li>
-            <a href="https://www.facebook.com/">
-              <img src="facebook.svg" href="e" width="30" height="20" class="d-inline-block"></a>
-            <a href="https://twitter.com/">
-              <img src="twitter.svg" href="#" width="30" height="20" class="d-inline-block"></a>
-            <a href="https://www.instagram.com/">
-              <img src="instagram.svg" href="#" width="30" height="20" class="d-inline-block"></a>
+            <li class="nav-item">
+              <a class="nav-link text-pink" href="schedule.html">SCHEDULE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-pink" href="events.html">EVENTS</a>
+            </li>
+             
           </ul>
-        </div>
+        
+          <ul class="nav justify-content-end">
+            <a href="https://www.facebook.com/">
+              <img src="facebook.svg" href="#" width="30" height="18" class="d-inline-block"></a>
+           
+           
+            <a href="https://twitter.com/">
+              <img src="twitter.svg" href="#" width="30" height="18" class="d-inline-block"></a>
+         
+          
+            <a href="https://www.instagram.com/">
+              <img src="instagram.svg" href="#" width="30" height="18" class="d-inline-block"></a>
+            </ul>
+        </div> 
       </div>
     </nav>
   </header>
