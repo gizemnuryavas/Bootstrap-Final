@@ -2,6 +2,14 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.text-st{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 body {
   background-color: rgb(236, 169, 71);
   color: white;
