@@ -2,6 +2,11 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.new{
+  font-family:'Times New Roman', Times, serif
+}
+
+
 .text-st {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
