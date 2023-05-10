@@ -86,7 +86,10 @@ a:active {
   color: rgb(236, 169, 71);
 }
 
+.text-pink {
+  color: rgb(84, 35, 5);
 
+}
 .modal-sheet .modal-dialog {
   width: 380px;
   transition: bottom .75s ease-in-out;
