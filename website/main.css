@@ -19,11 +19,11 @@ h1{
 }
 
 .nav-link:hover {
-  color: orange !important;
+  color: rgb(230, 154, 188) !important;
 }
 
 .btn:hover {
-  color: orange !important;
+  color: rgb(230, 154, 188) !important;
 }
 
 .nav-item {
@@ -52,6 +52,7 @@ a:active {
 .text-orange {
   color: rgb(236, 169, 71);
 }
+
 
 .modal-sheet .modal-dialog {
   width: 380px;
