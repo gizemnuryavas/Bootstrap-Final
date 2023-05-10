@@ -149,7 +149,8 @@
       </div>
     </div>
 
-    <div class="modal fade text-orange" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade text-orange" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content rounded-4 shadow">
           <div class="modal-header p-5 pb-4 border-bottom-0">
@@ -186,7 +187,8 @@
 
                     <div class="col-12">
                       <label for="phonenumber" class="form-label">Phone number</label>
-                      <input type="number" class="form-control" id="phonenumber" placeholder="+44 (XXX) XXX-XXXX" required>
+                      <input type="number" class="form-control" id="phonenumber" placeholder="+44 (XXX) XXX-XXXX"
+                        required>
                       <div class="invalid-feedback">
                         Please enter a valid phone number.
                       </div>
@@ -198,6 +200,20 @@
                       <div class="invalid-feedback">
                         Please choose a date.
                       </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="address" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                      <div class="invalid-feedback">
+                        Please enter your event address.
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="address2" class="form-label">Address 2 <span
+                          class="text-body-secondary">(Optional)</span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
                     </div>
 
                     <div class="col-md-5">
@@ -222,10 +238,23 @@
                       </div>
                     </div>
 
-                    
-                  <hr class="my-4">
+                    <div class="col-md-3">
+                      <label for="zip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Zip code required.
+                      </div>
+                    </div>
 
-                  <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Note<span
+                          class="text-body-secondary">(Optional)</span></label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
                 </form>
               </div>
           </div>
