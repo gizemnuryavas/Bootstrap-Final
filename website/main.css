@@ -27,20 +27,11 @@ h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 60px;
-}
 
-h3{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px;
-}
-
-h4 {
+h2 {
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- font-size: 18px;
  font-style: italic;
+ font-size: 20px;
 }
 
 form {
@@ -122,7 +113,7 @@ a:active {
 }
 
 .carousel-item2 {
-  height: 45rem;
+  height: 40rem;
 }
 
 
