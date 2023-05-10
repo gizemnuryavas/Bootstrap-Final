@@ -37,9 +37,18 @@ h3{
   font-size: 20px;
 }
 
+h4 {
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 18px;
+ font-style: italic;
+}
+
 form {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+
 .nav-link:hover {
   color: rgb(230, 154, 188) !important;
 }
