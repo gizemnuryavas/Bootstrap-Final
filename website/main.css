@@ -2,9 +2,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-.new {
-  font-family: 'Times New Roman', Times, serif
-}
+
 
 
 .text-st {
@@ -25,11 +23,13 @@ body {
 
 header {
   background-color: rgb(255, 255, 255);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
 }
 
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
 }
 
 
@@ -77,7 +77,7 @@ form {
 
 footer {
   background-color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -129,7 +129,8 @@ a:active {
 .carousel-caption {
   top: 3rem;
   z-index: 10;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
 }
 
 /* Declare heights because of positioning of img element */
@@ -179,6 +180,7 @@ a:active {
   letter-spacing: -.05rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
+  font-weight: bolder;
 }
 
 hr {
